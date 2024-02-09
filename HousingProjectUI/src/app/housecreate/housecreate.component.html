@@ -1,0 +1,47 @@
+<div class="page-container">
+    <h1>Add New Book </h1>
+<div class="book-form-container">
+   <form #form="ngForm" (ngSubmit)="createHouse()">
+    <div class="form-group">
+    <label>Title</label>
+    <input type="text" class="form-control" id="title" name="title" [(ngModel)]="addHousingRequest.title"/>
+    </div>
+
+    <div class="form-group">
+        <label>Author</label>
+        <input type="text" class="form-control" id="author" name="author" [(ngModel)]="addHousingRequest.author"/>
+        </div>
+        <div class="form-group">
+            <label>Publisher</label>
+            <input type="text" class="form-control" id="publisher" name="publisher" [(ngModel)]="addHousingRequest.publisher"/>
+        </div>
+        <div class="form-group"> 
+            <label>BookType</label>
+            <input type="text" class="form-control" id="booktype" name="booktype" [(ngModel)]="addHousingRequest.bookType"/>
+        </div>
+        <div class="form-group">
+            <label>Publisheddate</label>
+            <input type="datetime-local" class="form-control" id="publisheddate" name="publisheddate" [(ngModel)]="addHousingRequest.publisheddate"/>
+        </div>
+        <div class="form-group">
+            <label>Releaseddate</label>
+            <input type="datetime-local" class="form-control" id="releaseddate" name="releaseddate" [(ngModel)]="addHousingRequest.releaseddate"/>
+        </div>
+        <div class="form-group">
+            <label>Price</label>
+            <input type="number" class="form-control" id="price" name="price" [(ngModel)]="addHousingRequest.price"/>
+        </div>
+        <div class="form-group">
+            <label>Stock</label>
+            <input type="number" class="form-control" id="stock" name="stock" [(ngModel)]="addHousingRequest.stock"/>
+        </div>
+        <div class="form-group">
+            <label>Sold</label>
+            <input type="number" class="form-control" id="sold" name="sold" [(ngModel)]="addHousingRequest.sold"/>
+        </div>
+            <div class="button-container" >
+                    <p-button label="Add New Book" severity="primary" class="custom-button" type="Submit"></p-button>
+                </div>
+   </form>
+</div>
+</div>

@@ -1,0 +1,28 @@
+
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+*{
+    /* padding: 0; */
+    /* margin: 0; */
+    box-sizing: border-box;
+    
+}
+
+.p-datatable-thead,
+.p-datatable .p-datatable-thead > tr > th,
+.p-datatable .p-datatable-tbody > tr,
+.p-datatable .p-datatable-tbody > tr > td,
+.p-datatable-tbody{
+    background: transparent !important;
+    
+}
+.p-datatable .p-datatable-thead > tr > th,
+.p-datatable .p-datatable-tbody > tr > td{
+    border: 1px solid transparent !important;
+    color: #ffffff !important;
+}
+.p-datatable .p-datatable-thead > tr > th,
+.p-datatable .p-datatable-tbody > tr > td{
+   border:1px solid #e5e7eb
+}

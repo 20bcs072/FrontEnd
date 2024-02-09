@@ -1,0 +1,31 @@
+.card{
+    background: url('../../assets/list.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 97vh;
+    z-index: 0;
+    margin:0;
+    padding:0;
+    overflow:auto;
+}
+.card p-table{
+    backdrop-filter: blur(10px);
+}
+.card p-table ng-template{
+    opacity: 1;
+}
+
+.p-datatable-thead,
+.p-datatable .p-datatable-thead > tr > th,
+.p-datatable .p-datatable-tbody > tr > td,
+.p-datatable-tbody{
+    background: transparent !important;
+}
+
+.add{
+    color:beige
+}
+
+.p-button.p-button-help.p-button-text, .p-buttonset.p-button-help > .p-button.p-button-text, .p-splitbutton.p-button-help > .p-button.p-button-text{
+    color: blue;
+}
